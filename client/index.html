@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #eee;
+      text-align: center;
+    }
+    header {
+      background-color: #333;
+      padding: 1rem;
+    }
+    main {
+      padding: 2rem;
+    }
+    object {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    &nbsp;
+  </header>
+  <main>
+    <object type="image/svg+xml" data="http://localhost:3030/bar/?values=45,32,100,A,34,B,340">
+      <img src="http://localhost:3030/bar/?values=45,32,100,A,34,B,340" alt="Not an SVG">
+    </object>
+  </main>
+</body>
+</html>
